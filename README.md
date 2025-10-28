@@ -46,10 +46,18 @@ A. Refactor Form Isian (`2_form-bootstrap.html`):
 ### 4. Tugas: Halaman Portfolio Sederhana (portfolio.html)
 Dibuat halaman baru yang mengimplementasikan Navbar, Grid System, dan Card untuk menampilkan informasi diri dan proyek
 
-| Bagian | Implementasi | Bootstrap | Deskripsi | </br>
-| :----: | :----------: | :--------:|
-| Navbar | `navbar-dark bg-primary` | Navigasi atas yang seragam. |
-| Tentang Saya | `row` dengan `col-md-4` (Foto) dan `col-md-8` (Deskripsi) | "Memperkenalkan diri, menggunakan img-fluid pada foto."
-Portfolio Saya,row dengan tiga col-md-4,Menampilkan tiga proyek.
-Proyek,Setiap proyek menggunakan komponen .card.,Kartu fleksibel berisi gambar dummy dan deskripsi singkat.
-Footer,bg-dark,Footer gelap yang seragam.
+Detail Implementasi:
+
+- Navigasi: Menggunakan .navbar dengan skema warna yang seragam (misalnya bg-primary atau bg-light dengan shadow-sm).
+
+- Section "Tentang Saya": Konten dibungkus dalam .container dan menggunakan .row dengan pembagian kolom:
+
+``` - Kolom Kiri (.col-md-4): Berisi foto yang diberi kelas .img-fluid dan .rounded-circle agar responsif dan berbentuk lingkaran. ```
+
+Kolom Kanan (.col-md-8): Berisi deskripsi diri.
+
+Section "Portfolio Saya": Konten proyek menggunakan .row yang dibagi menjadi tiga kolom sama besar (.col-md-4).
+
+Proyek Detail: Setiap proyek direpresentasikan menggunakan komponen .card yang berisi gambar dummy, judul, deskripsi singkat, dan tombol detail.
+
+Footer: Menggunakan elemen <footer> dengan kelas bg-dark text-white agar seragam dengan footer layout utama.
