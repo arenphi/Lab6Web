@@ -21,7 +21,7 @@ Layout web sederhana yang sebelumnya dibuat menggunakan float: left dan clear ma
 
 Perubahan Utama
 
-- Navigasi: Tag `<nav>` lama diganti dengan komponen .navbar navbar-expand-lg Bootstrap, menggunakan kelas bg-primary untuk warna latar belakang biru.
+- <a> Navigasi: Tag `<nav>` lama diganti dengan komponen .navbar navbar-expand-lg Bootstrap, menggunakan kelas bg-primary untuk warna latar belakang biru. </a>
 
 - Grid Utama: Layout dibagi menjadi dua kolom utama: <br>
 
