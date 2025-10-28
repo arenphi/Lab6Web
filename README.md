@@ -23,10 +23,10 @@ Perubahan Utama
 
 - Navigasi: Tag `<nav>` lama diganti dengan komponen .navbar navbar-expand-lg Bootstrap, menggunakan kelas bg-primary untuk warna latar belakang biru.
 
-- Grid Utama: Layout dibagi menjadi dua kolom utama:
+- Grid Utama: Layout dibagi menjadi dua kolom utama: <br>
 
--- Main Content: Menggunakan `<main class="col-md-8">`.
--- Sidebar: Menggunakan `<aside class="col-md-4">`.
+- Main Content: Menggunakan `<main class="col-md-8">`.
+- Sidebar: Menggunakan `<aside class="col-md-4">`.
 
 - Three Boxes: Elemen `<div class="box">` lama diganti dengan komponen .card , diletakkan dalam row dengan tiga kolom sama lebar (col-md-4).
 
