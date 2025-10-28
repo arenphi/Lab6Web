@@ -34,3 +34,21 @@ b. Sidebar: Menggunakan `<aside class="col-md-4">`.
 - Widget Boxes: Elemen .widget-box di sidebar diganti dengan komponen .card , menggunakan kelas card-header dan utility classes (seperti bg-primary, text-white).
 
 - Responsiveness: Seluruh layout kini responsif secara otomatis.
+
+### 3. Refactor Form Praktikum 5 (Formulir Isian dan Tombol)
+A. Refactor Form Isian (`2_form-bootstrap.html`):
+
+- Setiap input dibungkus dalam `div class="mb-3"` (margin-bottom: 3).
+- Elemen `<label>` diberi kelas `.form-label`.
+- Elemen `<input>` diberi kelas `.form-control` untuk styling penuh lebar.
+- Tombol submit diberi kelas `.btn btn-primary`.
+
+### 4. Tugas: Halaman Portfolio Sederhana (portfolio.html)
+Dibuat halaman baru yang mengimplementasikan Navbar, Grid System, dan Card untuk menampilkan informasi diri dan proyek
+
+Bagian,Implementasi Bootstrap,Deskripsi 
+Navbar,navbar-dark bg-primary,Navigasi atas yang seragam.
+Tentang Saya,row dengan col-md-4 (Foto) dan col-md-8 (Deskripsi),"Memperkenalkan diri, menggunakan img-fluid pada foto."
+Portfolio Saya,row dengan tiga col-md-4,Menampilkan tiga proyek.
+Proyek,Setiap proyek menggunakan komponen .card.,Kartu fleksibel berisi gambar dummy dan deskripsi singkat.
+Footer,bg-dark,Footer gelap yang seragam.
