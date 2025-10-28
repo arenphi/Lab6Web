@@ -43,21 +43,21 @@ A. Refactor Form Isian (`2_form-bootstrap.html`):
 - Elemen `<input>` diberi kelas `.form-control` untuk styling penuh lebar.
 - Tombol submit diberi kelas `.btn btn-primary`.
 
-### 4. Tugas: Halaman Portfolio Sederhana (portfolio.html)
+### 4. Tugas: Halaman Portfolio Sederhana (`portfolio-bootstrap.html`)
 Dibuat halaman baru yang mengimplementasikan Navbar, Grid System, dan Card untuk menampilkan informasi diri dan proyek
 
 Detail Implementasi:
 
-- Navigasi: Menggunakan .navbar dengan skema warna yang seragam (misalnya bg-primary atau bg-light dengan shadow-sm).
+A.  Navigasi: Menggunakan `.navbar` dengan skema warna yang seragam (misalnya `bg-primary` atau `bg-light` dengan `shadow-sm`).
 
-- Section "Tentang Saya": Konten dibungkus dalam .container dan menggunakan .row dengan pembagian kolom:
+B.  Section "Tentang Saya": Konten dibungkus dalam `.container` dan menggunakan `.row` dengan pembagian kolom:
 
-``` - Kolom Kiri (.col-md-4): Berisi foto yang diberi kelas .img-fluid dan .rounded-circle agar responsif dan berbentuk lingkaran. ```
+- Kolom Kiri (`.col-md-4`): Berisi foto yang diberi kelas `.img-fluid` dan `.rounded-circle` agar responsif dan berbentuk lingkaran.
 
-Kolom Kanan (.col-md-8): Berisi deskripsi diri.
+- Kolom Kanan (`.col-md-8`): Berisi deskripsi diri.
 
-Section "Portfolio Saya": Konten proyek menggunakan .row yang dibagi menjadi tiga kolom sama besar (.col-md-4).
+C.  Section "Portfolio Saya": Konten proyek menggunakan `.row` yang dibagi menjadi tiga kolom sama besar `(.col-md-4)`.
 
-Proyek Detail: Setiap proyek direpresentasikan menggunakan komponen .card yang berisi gambar dummy, judul, deskripsi singkat, dan tombol detail.
+D.  Proyek Detail: Setiap proyek direpresentasikan menggunakan komponen `.card` yang berisi gambar dummy, judul, deskripsi singkat, dan tombol detail.
 
-Footer: Menggunakan elemen <footer> dengan kelas bg-dark text-white agar seragam dengan footer layout utama.
+E.  Footer: Menggunakan elemen `<footer>` dengan kelas `bg-dark text-white` agar seragam dengan footer layout utama.
