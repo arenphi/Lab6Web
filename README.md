@@ -1,4 +1,11 @@
-# 1. Setup Bootstrap (Penyertaan Library)
+# Praktikum 6: Bootstrap
+
+### Nama      : Reynaldi Nugraha Putra
+### Kelas     : TI.24.A.3
+### Matakuliah: Pemrograman Web / Pert 7
+___________________________________________________________________________________
+
+### 1. Setup Bootstrap (Penyertaan Library)
 Langkah awal adalah menyertakan library Bootstrap ke dalam setiap halaman HTML melalui CDN (Content Delivery Network).
 
 Kode yang Disertakan
