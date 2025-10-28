@@ -46,7 +46,7 @@ A. Refactor Form Isian (`2_form-bootstrap.html`):
 ### 4. Tugas: Halaman Portfolio Sederhana (portfolio.html)
 Dibuat halaman baru yang mengimplementasikan Navbar, Grid System, dan Card untuk menampilkan informasi diri dan proyek
 
-| Bagian | Implementasi | Bootstrap | Deskripsi | 
+| Bagian | Implementasi | Bootstrap | Deskripsi | </br>
 | :---: | :--- |
 | Navbar | navbar-dark bg-primary,Navigasi atas yang seragam.
 Tentang Saya,row dengan col-md-4 (Foto) dan col-md-8 (Deskripsi),"Memperkenalkan diri, menggunakan img-fluid pada foto."
